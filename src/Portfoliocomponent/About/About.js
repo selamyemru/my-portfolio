@@ -17,12 +17,11 @@ const About = () => {
        {/* <img src={img} alt='' className='img'/> */}
        <div className='hello'>
          <h1>About me</h1>
-         <p> I am  4^th year software engineering student at  Addis Ababa university in AAiT  Campus and also study Graphics Design in 
-           Brihanena Selam Matemiya college.I am passionate about creating <b>Web page</b> with <b>UI/UX user interface</b>.I have a year 
-           of experience and many clients are happy with the projects carried out.</p>
+         <p> I am  4<sup>th</sup> year software engineering student at  Addis Ababa university in AAiT  Campus and also study Graphics Design in 
+           Brihanena Selam Printing  college.I am passionate about creating <b>Web page</b> with <b>UI/UX user interface</b>.I have  projects carried out.</p>
        </div>
        <div className='technical'>
-      <h3>Technical skill</h3>
+      <h1>Technical skill</h1>
       <li className='full'>Fullstack Developer</li>
       
     
@@ -34,13 +33,13 @@ const About = () => {
       </div>
           <div className='exp'>
             
-            <h6>Softskill</h6>
+            <h1>Softskill</h1>
             {skill.map(name=><li>{name}</li>)}
          
           
          </div>
          <div className='programming'>
-        <h3>Programming</h3>
+        <h1>Programming</h1>
 
         <p className='list'> {programming.map(name=><li>{name}</li>)}</p>
         {/* <p className='list'>{frontend.map(name=><li>{name}</li>)}</p> */}
@@ -49,32 +48,27 @@ const About = () => {
       </div>
       
       <div className='intersest '>
-        <h3>Interest</h3>
+        <h1>Interest</h1>
        <p className='list'>{interest.map(name=><li>{name}</li>)}</p> 
         
 
       </div>
     </div>
-    <div className='me'>
     
-      
-
-    </div>
- 
      <section className='section'>
     <h2>Service</h2>
     <div className='service'>
       <div className='ser'>
-        <h6>UI/UX design</h6>
+        <h3>UI/UX design</h3>
         <p>website UI/UX design</p>
       </div>
       <div  className='ser'>
-        <h6>Development</h6>
+        <h3>Development</h3>
         <p>Software development</p>
         <p></p>
       </div>
       <div className='ser'>
-        <h6>Video Edditing</h6>
+        <h3 className='mt-0'>Video Edditing</h3>
         <p>Any video based on your interest</p>
         <p></p>
       </div>

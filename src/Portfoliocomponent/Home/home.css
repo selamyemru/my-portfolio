@@ -1,6 +1,7 @@
 body{
     text-align: center;
     color: black;
+    font-size: 20%;
     font-family: 'Times New Roman', Times, serif;
 }
 .font{
@@ -21,6 +22,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 10%;
 
 }
 img{
@@ -34,22 +36,12 @@ img{
 }
 .button{
     border-radius: 35%;
+    border: none;
     padding: 2px;
     width: 100px;
     margin-right: 10px;
     color: white;
     background-color: #115f64 !important;
 }
-.hire{
-    /* background-color: grey; */
-  
 
-    color: aliceblue;
-}
-/* .resume{
-    background-color: rgb(106, 194, 106);
-} */
 
-.span{
-    color: red;
-}

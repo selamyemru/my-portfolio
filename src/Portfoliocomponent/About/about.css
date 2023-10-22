@@ -6,15 +6,19 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
+.container{
+    margin-top: 5%;
+    
+}
 
 .about{
+    /* background-image: url(../img/m4.jpg); */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
    align-items: center;
    justify-content:space-between;
-   justify-items: start;
-   margin-top: 3%;
+ 
    gap: 5%;
    text-align: left;
   
@@ -27,29 +31,7 @@ body{
     
 }
 
-/* .exp{
-    
-    width: 20%;
-}
-.skil{
-   
-    width: 30%;
 
-}
-
-
-
-.me{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    /* color: rgb(185, 195, 189); 
-    
-} */
 .list{
     display: flex;
     flex-direction: column;
@@ -58,9 +40,15 @@ body{
     text-align: left;
     
 }
-
+section{
+    background-color: rgba(177, 172, 172, 0.3);
+    padding: 5%;
+    border-radius: 30% 30% 0% 0%;
+    margin-top: 3%;
+}
 
 .service{
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -72,11 +60,14 @@ body{
     
 }
 .ser{
+    margin-top: 6%;
+    padding-top:1%;
     background-color: rgba(177, 172, 172, 0.3);
-    /* padding-right: 3%;
-    padding-left:  3%; */
+   
     flex-grow: 2;
-    padding: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
     border-radius: 10%;
 
 }
@@ -85,10 +76,18 @@ body{
     .about{
         flex-wrap: wrap;
         margin-top: 50%;
+        
 
        
     }
+    body{
+        font-size: x-large;
+
+    }
     .container{
+       
+        margin-top: 10%;
         
     }
+   
 }
