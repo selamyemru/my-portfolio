@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.font{
+    
+    font-weight: bolder;
+}
+.Who{
+    /* background-color: rgb(102, 233, 215);
+    color: red; */
+    width: 500px;
+    text-align: start;
+    padding: 20px;
+    margin: 100px;
+    
+}
+.hi{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+img{
+    margin: 20px;
+}
+.img{
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 45%;
+    height: 400px;
+}
+.button{
+    border-radius: 35%;
+    padding: 2px;
+    width: 100px;
+    margin-right: 10px;
+    color: white;
+    background-color: #115f64 !important;
+}
+.hire{
+    /* background-color: grey; */
+  
+
+    color: aliceblue;
+}
+/* .resume{
+    background-color: rgb(106, 194, 106);
+} */
+
+.span{
+    color: red;
+}
